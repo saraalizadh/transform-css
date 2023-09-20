@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(196, 159, 204);
+    margin: 100px 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 170px;
+    height: 150px;
+    background-color: white;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.gray {
+    width: 100px;
+    height: 100px;
+    background-color: #9b9292e1;
+}
+
+.purple1 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+}
+
+.purple1:hover {
+    transform: rotate(45deg);
+}
+
+.purple2 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+}
+
+.purple2:hover {
+    transform: rotateX(45deg);
+}
+
+.purple3 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+}
+
+.purple3:hover {
+    transform: rotateY(45deg);
+}
+
+.purple4 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+}
+
+.purple4:hover {
+    transform: scale(2);
+}
+
+.purple5 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+}
+
+.purple5:hover {
+    transform: scaleX(2);
+}
+
+.purple6 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+}
+
+.purple6:hover {
+    transform: scaleY(2);
+}
+
+.purple7 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+}
+
+.purple7:hover {
+    transform: skew(45deg);
+}
+
+.purple8 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+}
+
+.purple8:hover {
+    transform: skewY(45deg);
+}
+
+.purple9 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+}
+
+.purple9:hover {
+    transform: translate(40px, 25px);
+}
+
+.purple10 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+}
+
+.purple10:hover {
+    transform: translateX(35px);
+}
+
+.purple11 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+}
+
+.purple11:hover {
+    transform: translateY(45px);
+}
+
+.purple12 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+}
+
+.purple12:hover {
+    transform: skewY(45deg) scale(2);
+}
+
+.purple13 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+}
+
+.purple13:hover {
+    transform: perspective(150px) rotateX(65deg) scale3d(1, 1.4, 1);
+}
+
+.purple14 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+}
+
+.purple14:hover {
+    transform: perspective(230px) rotateY(70deg) scaleX(1.8);
+    transform-origin: 50% 55% 3px;
+}
+
+.purple15 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+    transform-origin: 100% 0 0;
+}
+
+.purple15:hover {
+    transform: rotate(45deg) ;
+}
+
+.purple16 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+    transform-origin: bottom left;
+}
+
+.purple16:hover {
+    transform: rotate(45deg) ;
+}
+
+.purple17 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+    transform-origin: bottom;
+}
+
+.purple17:hover {
+    transform: perspective(350px) rotateX(45deg) ;
+}
+
+.purple18 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+    transform-origin: top;
+}
+
+.purple18:hover {
+    transform: perspective(200px) rotateX(60deg) ;
+}
+
+.purple19 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+    transform-origin: left;
+}
+
+.purple19:hover {
+    transform: perspective(250px) rotateY(45deg) ;
+}
+
+.purple20 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+    transform-origin: right;
+}
+
+.purple20:hover {
+    transform: perspective(220px) rotateY(60deg) ;
+}
+
+.purple21 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+    transform-origin: top right;
+}
+
+.purple21:hover {
+    transform:  scale(2) ;
+}
+
+.purple22 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+    transform-origin: bottom left;
+}
+
+.purple22:hover {
+    transform:  scale(2) ;
+}
+
+.purple23 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+    transform-origin: right;
+}
+
+.purple23:hover {
+    transform:  scaleX(2) ;
+}
+
+.purple24 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+    transform-origin: left;
+}
+
+.purple24:hover {
+    transform:  scaleX(2) ;
+}
+
+.purple25 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+    transform-origin: top;
+}
+
+.purple25:hover {
+    transform:  scaleY(2) ;
+}
+
+.purple26 {
+    width: 100px;
+    height: 100px;
+    background-color: #d2ade2e1;
+    position: absolute;
+    transition: all 0.7s;
+    transform-origin: bottom;
+}
+
+.purple26:hover {
+    transform:  scaleY(2) ;
+}
